@@ -1,0 +1,22 @@
+Message length: 588
+Calculated score: 0.6
+=== DEBUG INFO ===
+Message length: 281
+Is longer than 280: true
+Calculated score: 0.6
+Expected score: 0.6
+==================
+Applied penalty: -0.2
+Applied URL bonus: +0.1
+Applied account bonus: +0.1
+Manual calculation result: 0.6
+=== STEP BY STEP DEBUG ===
+Initial score: 0.6
+Is message long (>280): true
+#After penalty: 0.39999999999999997
+Has URL: true
+After URL bonus: 0.5
+Has account: true
+After account bonus: 0.6
+Final step-by-step result: 0.6
+==========================

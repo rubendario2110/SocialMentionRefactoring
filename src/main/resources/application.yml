@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: social-mention-analyzer
+  server:
+    port: 8080
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+  netty:
+    default:
+      allocator:
+        max-order: 3
+
+logging:
+  level:
+    org.example: DEBUG
+    io.micronaut: INFO 
